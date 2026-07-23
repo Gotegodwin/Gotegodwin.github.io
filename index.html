@@ -4,28 +4,18 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <!-- SEO -->
-  <title>Nkeeh Baridosian Godwin | Writer • Data Annotator • Content Professional</title>
-  <meta name="description" content="Portfolio of Nkeeh Baridosian Godwin — Writer, Data Annotator & Reviewer, and Content & Digital Media Professional with 6+ years of experience in content creation, AI dataset evaluation, and quality review." />
-  <meta name="keywords" content="Nkeeh Baridosian Godwin, Data Annotator, Content Writer, Video Reviewer, AI Data, Web3, Portfolio, Freelance Writer" />
+  <title>Nkeeh Baridosian Godwin | Writer • Data Annotator • Video Creator</title>
+  <meta name="description" content="Portfolio of Nkeeh Baridosian Godwin — Writer, Data Annotator and Video Creator with experience in content creation, AI data annotation, and video production." />
+  <meta name="keywords" content="Nkeeh Baridosian Godwin, Data Annotator, Writer, Video Creator, Content Professional, Portfolio" />
   <meta name="author" content="Nkeeh Baridosian Godwin" />
   <meta name="robots" content="index, follow" />
 
-  <!-- Open Graph -->
   <meta property="og:title" content="Nkeeh Baridosian Godwin | Professional Portfolio" />
-  <meta property="og:description" content="Writer and content professional specializing in data annotation, video review, and digital content quality." />
+  <meta property="og:description" content="Writer • Data Annotator • Video Creator" />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="assets/images/profile.jpg" />
 
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Nkeeh Baridosian Godwin | Portfolio" />
-  <meta name="twitter:description" content="Writer • Data Annotator & Reviewer • Content & Digital Media Professional" />
-
-  <!-- Favicon -->
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>NG</text></svg>" />
 
-  <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -37,31 +27,19 @@
               800: '#0a0a14',
               700: '#11111f',
               600: '#1a1a2e'
-            },
-            accent: {
-              blue: '#3b82f6',
-              indigo: '#6366f1',
-              purple: '#a855f7',
-              violet: '#7c3aed'
             }
           },
           fontFamily: {
             sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
-          },
-          animation: {
-            'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
           }
         }
       }
     }
   </script>
 
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
-
-  <!-- Custom Styles -->
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -75,7 +53,7 @@
     <div class="blob blob-4"></div>
   </div>
 
-  <!-- Navigation -->
+  <!-- ========== Navigation ========== -->
   <header id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-transparent transition-all duration-300">
     <nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
       <div class="flex items-center justify-between h-16 md:h-20">
@@ -83,18 +61,19 @@
           N.B. Godwin
         </a>
 
+        <!-- Desktop Menu -->
         <div class="hidden md:flex items-center gap-1 lg:gap-2">
           <a href="#home" class="nav-link px-3 py-2 text-sm font-medium text-slate-300">Home</a>
           <a href="#about" class="nav-link px-3 py-2 text-sm font-medium text-slate-300">About</a>
           <a href="#experience" class="nav-link px-3 py-2 text-sm font-medium text-slate-300">Experience</a>
-          <a href="#skills" class="nav-link px-3 py-2 text-sm font-medium text-slate-300">Skills</a>
           <a href="#portfolio" class="nav-link px-3 py-2 text-sm font-medium text-slate-300">Portfolio</a>
-          <a href="#resume" class="nav-link px-3 py-2 text-sm font-medium text-slate-300">Resume</a>
           <a href="#videos" class="nav-link px-3 py-2 text-sm font-medium text-slate-300">Videos</a>
+          <a href="#skills" class="nav-link px-3 py-2 text-sm font-medium text-slate-300">Skills</a>
           <a href="#contact" class="nav-link px-3 py-2 text-sm font-medium text-slate-300">Contact</a>
         </div>
 
-        <button id="menu-btn" type="button" class="md:hidden p-2 rounded-lg text-slate-300 hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-indigo-500" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
+        <!-- Mobile Menu Button -->
+        <button id="menu-btn" type="button" class="md:hidden p-2 rounded-lg text-slate-300 hover:bg-white/10 focus:outline-none" aria-label="Toggle menu">
           <svg id="menu-icon-open" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
           </svg>
@@ -104,22 +83,22 @@
         </button>
       </div>
 
+      <!-- Mobile Menu -->
       <div id="mobile-menu" class="mobile-menu md:hidden glass-strong rounded-b-2xl mx-0 px-4 pb-4">
         <div class="flex flex-col space-y-1 pt-2">
           <a href="#home" class="nav-link block px-4 py-3 text-sm font-medium text-slate-300 rounded-lg hover:bg-white/5">Home</a>
           <a href="#about" class="nav-link block px-4 py-3 text-sm font-medium text-slate-300 rounded-lg hover:bg-white/5">About</a>
           <a href="#experience" class="nav-link block px-4 py-3 text-sm font-medium text-slate-300 rounded-lg hover:bg-white/5">Experience</a>
-          <a href="#skills" class="nav-link block px-4 py-3 text-sm font-medium text-slate-300 rounded-lg hover:bg-white/5">Skills</a>
           <a href="#portfolio" class="nav-link block px-4 py-3 text-sm font-medium text-slate-300 rounded-lg hover:bg-white/5">Portfolio</a>
-          <a href="#resume" class="nav-link block px-4 py-3 text-sm font-medium text-slate-300 rounded-lg hover:bg-white/5">Resume</a>
           <a href="#videos" class="nav-link block px-4 py-3 text-sm font-medium text-slate-300 rounded-lg hover:bg-white/5">Videos</a>
+          <a href="#skills" class="nav-link block px-4 py-3 text-sm font-medium text-slate-300 rounded-lg hover:bg-white/5">Skills</a>
           <a href="#contact" class="nav-link block px-4 py-3 text-sm font-medium text-slate-300 rounded-lg hover:bg-white/5">Contact</a>
         </div>
       </div>
     </nav>
   </header>
 
-  <!-- Hero Section -->
+  <!-- ========== Hero Section ========== -->
   <section id="home" class="relative min-h-screen flex items-center justify-center pt-20 pb-16 section-padding overflow-hidden">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
       <div class="fade-up">
@@ -128,39 +107,24 @@
           <span class="gradient-text glow-text">NKEEH BARIDOSIAN</span><br />
           <span class="text-white">GODWIN</span>
         </h1>
-        <p class="text-lg sm:text-xl md:text-2xl text-slate-300 font-medium mb-3">
-          Writer • Data Annotator & Reviewer
-        </p>
-        <p class="text-base sm:text-lg text-slate-400 mb-8">
-          Content & Digital Media Professional
+        <p class="text-lg sm:text-xl md:text-2xl text-slate-300 font-medium mb-8">
+          Writer • Data Annotator • Video Creator
         </p>
         <p class="max-w-2xl mx-auto text-slate-400 text-sm sm:text-base leading-relaxed mb-10">
-          Writer and content professional with over six years of experience creating digital content, evaluating AI datasets, reviewing content against detailed guidelines, and helping improve content quality through careful analysis.
+          Writer and content professional with over six years of experience creating digital content, evaluating AI datasets, reviewing content against detailed guidelines, and producing video content.
         </p>
 
         <div class="flex flex-wrap items-center justify-center gap-4">
-          <a href="assets/resume.pdf" download class="btn-glow inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold text-sm shadow-lg hover:from-indigo-500 hover:to-purple-500 transition">
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
-            Download CV
-          </a>
-          <a href="#resume" class="btn-glow inline-flex items-center gap-2 px-6 py-3.5 rounded-xl glass border border-indigo-500/30 text-indigo-300 font-semibold text-sm hover:bg-indigo-500/10 transition">
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
-            View Resume
-          </a>
-          <a href="#contact" class="btn-glow inline-flex items-center gap-2 px-6 py-3.5 rounded-xl glass border border-white/10 text-slate-200 font-semibold text-sm hover:bg-white/5 transition">
+          <a href="#contact" class="btn-glow inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold text-sm shadow-lg hover:from-indigo-500 hover:to-purple-500 transition">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
-            Contact
+            Contact Me
           </a>
         </div>
-      </div>
-
-      <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce hidden sm:block">
-        <svg class="w-6 h-6 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg>
       </div>
     </div>
   </section>
 
-  <!-- About Section -->
+  <!-- ========== About Section ========== -->
   <section id="about" class="section-padding relative z-10">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12 md:mb-16 fade-up">
@@ -176,7 +140,7 @@
             <div class="relative w-56 h-56 sm:w-64 sm:h-64 md:w-72 md:h-72 rounded-2xl overflow-hidden glass-strong">
               <img 
                 src="assets/images/profile.jpg" 
-                alt="Nkeeh Baridosian Godwin professional portrait" 
+                alt="Nkeeh Baridosian Godwin" 
                 class="w-full h-full object-cover"
                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
               />
@@ -189,13 +153,13 @@
 
         <div class="md:col-span-3 fade-up delay-200">
           <h3 class="text-xl md:text-2xl font-semibold text-white mb-4">
-            Crafting clarity in content and data
+            Crafting clarity in content, data and video
           </h3>
           <p class="text-slate-400 leading-relaxed mb-5">
-            I am a writer and content professional with more than six years of hands-on experience creating digital content, evaluating AI datasets, and reviewing material against detailed project guidelines. My work focuses on improving content quality through careful analysis, consistency checks, and structured feedback.
+            I am a writer, data annotator and video creator with more than six years of hands-on experience. My work focuses on creating clear digital content, evaluating AI datasets, reviewing material against detailed guidelines, and producing engaging video content.
           </p>
           <p class="text-slate-400 leading-relaxed mb-6">
-            Across roles in content writing, data annotation, video reviewing, social media management, and digital media, I have delivered reliable results while working both independently and collaboratively in remote environments. I bring attention to detail, clear communication, and a strong understanding of how high-quality data and content support better products and audiences.
+            I deliver reliable results both independently and in remote collaborative environments, bringing strong attention to detail and a clear understanding of quality standards.
           </p>
 
           <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
@@ -206,13 +170,13 @@
               <p class="text-indigo-300 font-semibold text-sm">Data Annotation</p>
             </div>
             <div class="glass rounded-xl px-4 py-3 text-center">
-              <p class="text-indigo-300 font-semibold text-sm">Video Reviewing</p>
+              <p class="text-indigo-300 font-semibold text-sm">Video Creation</p>
             </div>
             <div class="glass rounded-xl px-4 py-3 text-center">
-              <p class="text-indigo-300 font-semibold text-sm">Social Media</p>
+              <p class="text-indigo-300 font-semibold text-sm">Content Review</p>
             </div>
             <div class="glass rounded-xl px-4 py-3 text-center">
-              <p class="text-indigo-300 font-semibold text-sm">Digital Content</p>
+              <p class="text-indigo-300 font-semibold text-sm">Video Editing</p>
             </div>
             <div class="glass rounded-xl px-4 py-3 text-center">
               <p class="text-indigo-300 font-semibold text-sm">Quality Assurance</p>
@@ -223,7 +187,7 @@
     </div>
   </section>
 
-  <!-- Experience Section -->
+  <!-- ========== Experience Section ========== -->
   <section id="experience" class="section-padding relative z-10 bg-dark-800/40">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12 md:mb-16 fade-up">
@@ -236,7 +200,7 @@
         <div class="timeline-line hidden md:block"></div>
 
         <div class="space-y-10 md:space-y-16">
-          <!-- Job 1 -->
+          <!-- Current Role -->
           <div class="relative flex flex-col md:flex-row md:items-start gap-6 fade-up">
             <div class="md:w-1/2 md:pr-12 md:text-right order-2 md:order-1">
               <div class="glass-strong rounded-2xl p-6 inline-block text-left w-full max-w-md ml-auto">
@@ -247,10 +211,9 @@
                 <p class="text-indigo-300 text-sm font-medium mt-1">Freelance · Remote</p>
                 <p class="text-slate-500 text-xs mt-1 mb-4">February 2026 – Present</p>
                 <ul class="space-y-2 text-sm text-slate-400">
-                  <li class="flex gap-2"><span class="text-indigo-400 mt-1">▹</span> Labeled and annotated text and video datasets for AI training pipelines</li>
+                  <li class="flex gap-2"><span class="text-indigo-400 mt-1">▹</span> Labeled and annotated text and video datasets for AI training</li>
                   <li class="flex gap-2"><span class="text-indigo-400 mt-1">▹</span> Reviewed video content against detailed project guidelines</li>
-                  <li class="flex gap-2"><span class="text-indigo-400 mt-1">▹</span> Evaluated quality, consistency, and guideline adherence</li>
-                  <li class="flex gap-2"><span class="text-indigo-400 mt-1">▹</span> Worked independently with high attention to accuracy and deadlines</li>
+                  <li class="flex gap-2"><span class="text-indigo-400 mt-1">▹</span> Evaluated quality, consistency and guideline adherence</li>
                 </ul>
               </div>
             </div>
@@ -260,7 +223,7 @@
             <div class="md:w-1/2 order-3 hidden md:block"></div>
           </div>
 
-          <!-- Job 2 -->
+          <!-- Writer -->
           <div class="relative flex flex-col md:flex-row md:items-start gap-6 fade-up delay-100">
             <div class="md:w-1/2 order-3 hidden md:block"></div>
             <div class="absolute left-4 md:left-1/2 md:-translate-x-1/2 flex items-center justify-center order-1">
@@ -272,32 +235,28 @@
                 <p class="text-indigo-300 text-sm font-medium mt-1">PGC – Scooper</p>
                 <p class="text-slate-500 text-xs mt-1 mb-4">2020 – 2022</p>
                 <ul class="space-y-2 text-sm text-slate-400 mb-4">
-                  <li class="flex gap-2"><span class="text-indigo-400 mt-1">▹</span> Authored technology, politics, health, and entertainment articles</li>
+                  <li class="flex gap-2"><span class="text-indigo-400 mt-1">▹</span> Authored technology, politics, health and entertainment articles</li>
                   <li class="flex gap-2"><span class="text-indigo-400 mt-1">▹</span> Produced clear, audience-focused content under editorial guidelines</li>
                 </ul>
                 <div class="pt-3 border-t border-white/5">
-                  <p class="text-xs text-slate-500 mb-1">Key Achievements</p>
                   <p class="text-sm text-emerald-400/90">Grew channel to 800+ subscribers · Reached 100,000+ views</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- Job 3 -->
+          <!-- Social Media -->
           <div class="relative flex flex-col md:flex-row md:items-start gap-6 fade-up delay-200">
             <div class="md:w-1/2 md:pr-12 md:text-right order-2 md:order-1">
               <div class="glass-strong rounded-2xl p-6 inline-block text-left w-full max-w-md ml-auto">
                 <h3 class="text-lg font-bold text-white">Social Media Manager</h3>
                 <p class="text-indigo-300 text-sm font-medium mt-1">Artshub</p>
                 <p class="text-slate-500 text-xs mt-1 mb-4">2015 – 2016</p>
-                <div class="pt-1">
-                  <p class="text-xs text-slate-500 mb-1">Key Achievements</p>
-                  <ul class="space-y-2 text-sm text-slate-400">
-                    <li class="flex gap-2"><span class="text-emerald-400 mt-1">▹</span> Built Facebook page from zero</li>
-                    <li class="flex gap-2"><span class="text-emerald-400 mt-1">▹</span> Grew to over 3,000 followers</li>
-                    <li class="flex gap-2"><span class="text-emerald-400 mt-1">▹</span> Generated over 10,000 weekly interactions</li>
-                  </ul>
-                </div>
+                <ul class="space-y-2 text-sm text-slate-400">
+                  <li class="flex gap-2"><span class="text-emerald-400 mt-1">▹</span> Built Facebook page from zero</li>
+                  <li class="flex gap-2"><span class="text-emerald-400 mt-1">▹</span> Grew to over 3,000 followers</li>
+                  <li class="flex gap-2"><span class="text-emerald-400 mt-1">▹</span> Generated over 10,000 weekly interactions</li>
+                </ul>
               </div>
             </div>
             <div class="absolute left-4 md:left-1/2 md:-translate-x-1/2 flex items-center justify-center order-1 md:order-2">
@@ -305,30 +264,175 @@
             </div>
             <div class="md:w-1/2 order-3 hidden md:block"></div>
           </div>
-
-          <!-- Job 4 -->
-          <div class="relative flex flex-col md:flex-row md:items-start gap-6 fade-up delay-300">
-            <div class="md:w-1/2 order-3 hidden md:block"></div>
-            <div class="absolute left-4 md:left-1/2 md:-translate-x-1/2 flex items-center justify-center order-1">
-              <div class="timeline-dot"></div>
-            </div>
-            <div class="md:w-1/2 md:pl-12 order-2">
-              <div class="glass-strong rounded-2xl p-6 w-full max-w-md">
-                <h3 class="text-lg font-bold text-white">NFT Artist</h3>
-                <p class="text-indigo-300 text-sm font-medium mt-1">Cyprus DAO</p>
-                <p class="text-slate-500 text-xs mt-1 mb-4">2020</p>
-                <p class="text-sm text-slate-400 leading-relaxed">
-                  Contributed original digital artwork and visual assets for community NFT initiatives within Cyprus DAO. Collaborated with a decentralized collective to produce pieces that aligned with project themes and supported community engagement and on-chain collectible releases.
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Skills Section -->
+  <!-- ========== Portfolio Section ========== -->
+  <section id="portfolio" class="section-padding relative z-10">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12 md:mb-16 fade-up">
+        <p class="text-indigo-400 font-medium tracking-widest uppercase text-sm mb-2">Selected Work</p>
+        <h2 class="text-3xl md:text-4xl font-bold text-white">Portfolio</h2>
+        <div class="w-20 h-1 bg-gradient-to-r from-indigo-500 to-purple-500 mx-auto mt-4 rounded-full"></div>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-2 gap-6 md:gap-8">
+
+        <!-- Lombard Research -->
+        <article class="portfolio-card glass-strong rounded-2xl overflow-hidden fade-up">
+          <div class="aspect-video bg-gradient-to-br from-indigo-900/60 to-purple-900/40 relative overflow-hidden">
+            <img src="https://placehold.co/600x340/1e1b4b/a5b4fc?text=Lombard+Research" alt="Lombard Research" class="w-full h-full object-cover opacity-90" loading="lazy" />
+            <span class="absolute top-3 left-3 text-xs font-medium px-2.5 py-1 rounded-full bg-black/50 text-indigo-200 backdrop-blur">Research</span>
+          </div>
+          <div class="p-5">
+            <h3 class="text-lg font-semibold text-white mb-2">Lombard Ecosystem Research</h3>
+            <p class="text-sm text-slate-400 mb-4">A series of deep analytical and educational research posts exploring the Lombard ecosystem, its mechanics and key insights.</p>
+            <a href="https://x.com/i/status/1929459824443408522" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-sm font-medium text-indigo-400 hover:text-indigo-300 transition">
+              View Series →
+            </a>
+          </div>
+        </article>
+
+        <!-- Finance Video -->
+        <article class="portfolio-card glass-strong rounded-2xl overflow-hidden fade-up delay-100">
+          <div class="aspect-video bg-gradient-to-br from-violet-900/60 to-blue-900/40 relative overflow-hidden">
+            <img src="https://placehold.co/600x340/2e1065/c4b5fd?text=Finance+Video" alt="Finance Video" class="w-full h-full object-cover opacity-90" loading="lazy" />
+            <span class="absolute top-3 left-3 text-xs font-medium px-2.5 py-1 rounded-full bg-black/50 text-purple-200 backdrop-blur">Video</span>
+          </div>
+          <div class="p-5">
+            <h3 class="text-lg font-semibold text-white mb-2">Finance Video Production</h3>
+            <p class="text-sm text-slate-400 mb-4">A complete finance-focused video produced and edited with CapCut for clear educational delivery.</p>
+            <a href="https://youtu.be/pd77UgiYuRo" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-sm font-medium text-indigo-400 hover:text-indigo-300 transition">
+              Watch Video →
+            </a>
+          </div>
+        </article>
+
+        <!-- Anime Clips -->
+        <article class="portfolio-card glass-strong rounded-2xl overflow-hidden fade-up">
+          <div class="aspect-video bg-gradient-to-br from-blue-900/60 to-indigo-900/40 relative overflow-hidden">
+            <img src="https://placehold.co/600x340/1e3a8a/93c5fd?text=Anime+Edits" alt="Anime Edits" class="w-full h-full object-cover opacity-90" loading="lazy" />
+            <span class="absolute top-3 left-3 text-xs font-medium px-2.5 py-1 rounded-full bg-black/50 text-blue-200 backdrop-blur">Shorts</span>
+          </div>
+          <div class="p-5">
+            <h3 class="text-lg font-semibold text-white mb-2">Anime Clip Edits</h3>
+            <p class="text-sm text-slate-400 mb-4">Short-form anime video edits created for YouTube Shorts with smooth transitions and engaging pacing.</p>
+            <a href="https://youtube.com/shorts/sirfOvTjOZQ" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-sm font-medium text-indigo-400 hover:text-indigo-300 transition">
+              Watch Shorts →
+            </a>
+          </div>
+        </article>
+
+        <!-- Spiderman Edit -->
+        <article class="portfolio-card glass-strong rounded-2xl overflow-hidden fade-up delay-100">
+          <div class="aspect-video bg-gradient-to-br from-fuchsia-900/50 to-purple-900/40 relative overflow-hidden">
+            <img src="https://placehold.co/600x340/4a044e/f0abfc?text=Spiderman+Edit" alt="Spiderman Edit" class="w-full h-full object-cover opacity-90" loading="lazy" />
+            <span class="absolute top-3 left-3 text-xs font-medium px-2.5 py-1 rounded-full bg-black/50 text-fuchsia-200 backdrop-blur">Edit</span>
+          </div>
+          <div class="p-5">
+            <h3 class="text-lg font-semibold text-white mb-2">Spiderman Video Edit</h3>
+            <p class="text-sm text-slate-400 mb-4">A creative Spiderman-themed short video edit produced for YouTube Shorts.</p>
+            <a href="https://youtube.com/shorts/QQCBQJpVnFs" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-sm font-medium text-indigo-400 hover:text-indigo-300 transition">
+              Watch Edit →
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Video Samples Section ========== -->
+  <section id="videos" class="section-padding relative z-10 bg-dark-800/40">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12 md:mb-16 fade-up">
+        <p class="text-indigo-400 font-medium tracking-widest uppercase text-sm mb-2">My Work</p>
+        <h2 class="text-3xl md:text-4xl font-bold text-white">Video Samples</h2>
+        <div class="w-20 h-1 bg-gradient-to-r from-indigo-500 to-purple-500 mx-auto mt-4 rounded-full"></div>
+        <p class="text-slate-400 mt-4 max-w-lg mx-auto text-sm">These videos were created and edited by me.</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-6 md:gap-8">
+
+        <!-- Finance Video -->
+        <div class="video-card glass-strong rounded-2xl overflow-hidden fade-up">
+          <div class="aspect-video bg-black relative">
+            <iframe 
+              class="w-full h-full" 
+              src="https://www.youtube.com/embed/pd77UgiYuRo" 
+              title="Finance Video Production" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen
+              loading="lazy"
+            ></iframe>
+          </div>
+          <div class="p-5">
+            <h3 class="text-base font-semibold text-white mb-1">Finance Video Production</h3>
+            <p class="text-sm text-slate-400">Created and edited with CapCut</p>
+          </div>
+        </div>
+
+        <!-- Anime Clip 1 -->
+        <div class="video-card glass-strong rounded-2xl overflow-hidden fade-up delay-100">
+          <div class="aspect-video bg-black relative">
+            <iframe 
+              class="w-full h-full" 
+              src="https://www.youtube.com/embed/sirfOvTjOZQ" 
+              title="Anime Clip Edit" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen
+              loading="lazy"
+            ></iframe>
+          </div>
+          <div class="p-5">
+            <h3 class="text-base font-semibold text-white mb-1">Anime Clip Edit</h3>
+            <p class="text-sm text-slate-400">YouTube Shorts • Created by me</p>
+          </div>
+        </div>
+
+        <!-- Anime Clip 2 -->
+        <div class="video-card glass-strong rounded-2xl overflow-hidden fade-up">
+          <div class="aspect-video bg-black relative">
+            <iframe 
+              class="w-full h-full" 
+              src="https://www.youtube.com/embed/Ki0NC4jI7gk" 
+              title="Anime Clip Edit 2" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen
+              loading="lazy"
+            ></iframe>
+          </div>
+          <div class="p-5">
+            <h3 class="text-base font-semibold text-white mb-1">Anime Clip Edit</h3>
+            <p class="text-sm text-slate-400">YouTube Shorts • Created by me</p>
+          </div>
+        </div>
+
+        <!-- Spiderman Edit -->
+        <div class="video-card glass-strong rounded-2xl overflow-hidden fade-up delay-100">
+          <div class="aspect-video bg-black relative">
+            <iframe 
+              class="w-full h-full" 
+              src="https://www.youtube.com/embed/QQCBQJpVnFs" 
+              title="Spiderman Video Edit" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen
+              loading="lazy"
+            ></iframe>
+          </div>
+          <div class="p-5">
+            <h3 class="text-base font-semibold text-white mb-1">Spiderman Video Edit</h3>
+            <p class="text-sm text-slate-400">YouTube Shorts • Created by me</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Skills Section ========== -->
   <section id="skills" class="section-padding relative z-10">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12 md:mb-16 fade-up">
@@ -341,317 +445,51 @@
         <span class="skill-badge px-4 py-2.5 rounded-full text-sm font-medium">Data Annotation</span>
         <span class="skill-badge px-4 py-2.5 rounded-full text-sm font-medium">Content Review</span>
         <span class="skill-badge px-4 py-2.5 rounded-full text-sm font-medium">Video Review</span>
-        <span class="skill-badge px-4 py-2.5 rounded-full text-sm font-medium">Quality Assurance</span>
         <span class="skill-badge px-4 py-2.5 rounded-full text-sm font-medium">Content Writing</span>
-        <span class="skill-badge px-4 py-2.5 rounded-full text-sm font-medium">Copywriting</span>
-        <span class="skill-badge px-4 py-2.5 rounded-full text-sm font-medium">Editing</span>
-        <span class="skill-badge px-4 py-2.5 rounded-full text-sm font-medium">Social Media Management</span>
-        <span class="skill-badge px-4 py-2.5 rounded-full text-sm font-medium">Content Strategy</span>
-        <span class="skill-badge px-4 py-2.5 rounded-full text-sm font-medium">Canva</span>
+        <span class="skill-badge px-4 py-2.5 rounded-full text-sm font-medium">Video Editing</span>
         <span class="skill-badge px-4 py-2.5 rounded-full text-sm font-medium">CapCut</span>
-        <span class="skill-badge px-4 py-2.5 rounded-full text-sm font-medium">PowerDirector</span>
-        <span class="skill-badge px-4 py-2.5 rounded-full text-sm font-medium">Google Workspace</span>
-        <span class="skill-badge px-4 py-2.5 rounded-full text-sm font-medium">Microsoft Office</span>
+        <span class="skill-badge px-4 py-2.5 rounded-full text-sm font-medium">Copywriting</span>
+        <span class="skill-badge px-4 py-2.5 rounded-full text-sm font-medium">Quality Assurance</span>
+        <span class="skill-badge px-4 py-2.5 rounded-full text-sm font-medium">Canva</span>
         <span class="skill-badge px-4 py-2.5 rounded-full text-sm font-medium">Remote Collaboration</span>
       </div>
     </div>
   </section>
 
-  <!-- Portfolio Section -->
-  <section id="portfolio" class="section-padding relative z-10 bg-dark-800/40">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-12 md:mb-16 fade-up">
-        <p class="text-indigo-400 font-medium tracking-widest uppercase text-sm mb-2">Selected Work</p>
-        <h2 class="text-3xl md:text-4xl font-bold text-white">Portfolio</h2>
-        <div class="w-20 h-1 bg-gradient-to-r from-indigo-500 to-purple-500 mx-auto mt-4 rounded-full"></div>
-      </div>
-
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-        <article class="portfolio-card glass-strong rounded-2xl overflow-hidden fade-up">
-          <div class="aspect-video bg-gradient-to-br from-indigo-900/60 to-purple-900/40 relative overflow-hidden">
-            <img src="https://placehold.co/600x340/1e1b4b/a5b4fc?text=Articles" alt="Articles portfolio preview" class="w-full h-full object-cover opacity-90" loading="lazy" />
-            <span class="absolute top-3 left-3 text-xs font-medium px-2.5 py-1 rounded-full bg-black/50 text-indigo-200 backdrop-blur">Articles</span>
-          </div>
-          <div class="p-5">
-            <h3 class="text-lg font-semibold text-white mb-2">Editorial & Long-form Articles</h3>
-            <p class="text-sm text-slate-400 mb-4 line-clamp-2">Technology, politics, health and entertainment pieces written for digital audiences with clear structure and engagement focus.</p>
-            <a href="#" class="inline-flex items-center gap-1.5 text-sm font-medium text-indigo-400 hover:text-indigo-300 transition">
-              Open
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
-            </a>
-          </div>
-        </article>
-
-        <article class="portfolio-card glass-strong rounded-2xl overflow-hidden fade-up delay-100">
-          <div class="aspect-video bg-gradient-to-br from-violet-900/60 to-blue-900/40 relative overflow-hidden">
-            <img src="https://placehold.co/600x340/2e1065/c4b5fd?text=Web3+Research" alt="Web3 research portfolio preview" class="w-full h-full object-cover opacity-90" loading="lazy" />
-            <span class="absolute top-3 left-3 text-xs font-medium px-2.5 py-1 rounded-full bg-black/50 text-purple-200 backdrop-blur">Web3 Research</span>
-          </div>
-          <div class="p-5">
-            <h3 class="text-lg font-semibold text-white mb-2">Web3 & Crypto Insights</h3>
-            <p class="text-sm text-slate-400 mb-4 line-clamp-2">Research notes and written analysis supporting community and project communication in decentralized ecosystems.</p>
-            <a href="#" class="inline-flex items-center gap-1.5 text-sm font-medium text-indigo-400 hover:text-indigo-300 transition">
-              Open
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
-            </a>
-          </div>
-        </article>
-
-        <article class="portfolio-card glass-strong rounded-2xl overflow-hidden fade-up delay-200">
-          <div class="aspect-video bg-gradient-to-br from-blue-900/60 to-indigo-900/40 relative overflow-hidden">
-            <img src="https://placehold.co/600x340/1e3a8a/93c5fd?text=Social+Campaigns" alt="Social media campaigns portfolio preview" class="w-full h-full object-cover opacity-90" loading="lazy" />
-            <span class="absolute top-3 left-3 text-xs font-medium px-2.5 py-1 rounded-full bg-black/50 text-blue-200 backdrop-blur">Social Media</span>
-          </div>
-          <div class="p-5">
-            <h3 class="text-lg font-semibold text-white mb-2">Social Media Campaigns</h3>
-            <p class="text-sm text-slate-400 mb-4 line-clamp-2">Campaign planning, content calendars and community growth initiatives that scaled pages and engagement metrics.</p>
-            <a href="#" class="inline-flex items-center gap-1.5 text-sm font-medium text-indigo-400 hover:text-indigo-300 transition">
-              Open
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
-            </a>
-          </div>
-        </article>
-
-        <article class="portfolio-card glass-strong rounded-2xl overflow-hidden fade-up">
-          <div class="aspect-video bg-gradient-to-br from-fuchsia-900/50 to-purple-900/40 relative overflow-hidden">
-            <img src="https://placehold.co/600x340/4a044e/f0abfc?text=Graphics" alt="Graphics portfolio preview" class="w-full h-full object-cover opacity-90" loading="lazy" />
-            <span class="absolute top-3 left-3 text-xs font-medium px-2.5 py-1 rounded-full bg-black/50 text-fuchsia-200 backdrop-blur">Graphics</span>
-          </div>
-          <div class="p-5">
-            <h3 class="text-lg font-semibold text-white mb-2">Visual Content & Graphics</h3>
-            <p class="text-sm text-slate-400 mb-4 line-clamp-2">Canva-based graphics, social assets and visual support materials created for campaigns and digital channels.</p>
-            <a href="#" class="inline-flex items-center gap-1.5 text-sm font-medium text-indigo-400 hover:text-indigo-300 transition">
-              Open
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
-            </a>
-          </div>
-        </article>
-
-        <article class="portfolio-card glass-strong rounded-2xl overflow-hidden fade-up delay-100">
-          <div class="aspect-video bg-gradient-to-br from-cyan-900/50 to-indigo-900/40 relative overflow-hidden">
-            <img src="https://placehold.co/600x340/164e63/67e8f9?text=NFT+Artwork" alt="NFT artwork portfolio preview" class="w-full h-full object-cover opacity-90" loading="lazy" />
-            <span class="absolute top-3 left-3 text-xs font-medium px-2.5 py-1 rounded-full bg-black/50 text-cyan-200 backdrop-blur">NFT Artwork</span>
-          </div>
-          <div class="p-5">
-            <h3 class="text-lg font-semibold text-white mb-2">NFT Artwork — Cyprus DAO</h3>
-            <p class="text-sm text-slate-400 mb-4 line-clamp-2">Original digital pieces and visual contributions for community NFT releases and collaborative DAO initiatives.</p>
-            <a href="#" class="inline-flex items-center gap-1.5 text-sm font-medium text-indigo-400 hover:text-indigo-300 transition">
-              Open
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
-            </a>
-          </div>
-        </article>
-
-        <article class="portfolio-card glass-strong rounded-2xl overflow-hidden fade-up delay-200">
-          <div class="aspect-video bg-gradient-to-br from-slate-800 to-dark-700 relative overflow-hidden flex items-center justify-center">
-            <div class="text-center p-6">
-              <svg class="w-12 h-12 mx-auto text-slate-600 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 4v16m8-8H4"/></svg>
-              <p class="text-slate-500 text-sm">Add your next project</p>
-            </div>
-          </div>
-          <div class="p-5">
-            <h3 class="text-lg font-semibold text-white mb-2">Coming Soon</h3>
-            <p class="text-sm text-slate-400 mb-4">Duplicate a portfolio card in the HTML and update title, description, image and link.</p>
-            <span class="text-sm text-slate-600">—</span>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- Resume Section -->
-  <section id="resume" class="section-padding relative z-10">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-12 md:mb-16 fade-up">
-        <p class="text-indigo-400 font-medium tracking-widest uppercase text-sm mb-2">Documents</p>
-        <h2 class="text-3xl md:text-4xl font-bold text-white">Resume</h2>
-        <div class="w-20 h-1 bg-gradient-to-r from-indigo-500 to-purple-500 mx-auto mt-4 rounded-full"></div>
-      </div>
-
-      <div class="max-w-3xl mx-auto fade-up delay-100">
-        <div class="glass-strong rounded-2xl p-6 md:p-8 text-center mb-8">
-          <p class="text-slate-400 mb-6">Download the full curriculum vitae or view it directly in the browser.</p>
-          <a href="assets/resume.pdf" download class="btn-glow inline-flex items-center gap-3 px-8 py-4 rounded-xl bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold text-base shadow-lg hover:from-indigo-500 hover:to-purple-500 transition">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
-            Download Resume (PDF)
-          </a>
-        </div>
-
-        <div class="glass-strong rounded-2xl overflow-hidden fade-up delay-200">
-          <div class="bg-dark-700 px-4 py-3 flex items-center justify-between border-b border-white/5">
-            <span class="text-sm text-slate-400">resume.pdf</span>
-            <a href="assets/resume.pdf" target="_blank" rel="noopener" class="text-xs text-indigo-400 hover:text-indigo-300">Open in new tab ↗</a>
-          </div>
-          <div class="aspect-[3/4] sm:aspect-[4/3] bg-dark-800">
-            <iframe 
-              src="assets/resume.pdf#toolbar=0&navpanes=0" 
-              class="w-full h-full" 
-              title="Resume PDF viewer"
-            ></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Video Samples -->
-  <section id="videos" class="section-padding relative z-10 bg-dark-800/40">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-12 md:mb-16 fade-up">
-        <p class="text-indigo-400 font-medium tracking-widest uppercase text-sm mb-2">Media</p>
-        <h2 class="text-3xl md:text-4xl font-bold text-white">Video Samples</h2>
-        <div class="w-20 h-1 bg-gradient-to-r from-indigo-500 to-purple-500 mx-auto mt-4 rounded-full"></div>
-        <p class="text-slate-500 text-sm mt-4 max-w-lg mx-auto">Replace the embed URLs below with your own YouTube video links.</p>
-      </div>
-
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-        <div class="video-card glass-strong rounded-2xl overflow-hidden fade-up">
-          <div class="aspect-video bg-black relative">
-            <iframe 
-              class="w-full h-full" 
-              src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
-              title="Video sample 1" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-              allowfullscreen
-              loading="lazy"
-            ></iframe>
-          </div>
-          <div class="p-5">
-            <h3 class="text-base font-semibold text-white mb-1">Sample Review / Annotation Demo</h3>
-            <p class="text-sm text-slate-400">Placeholder — replace with your video title and description.</p>
-          </div>
-        </div>
-
-        <div class="video-card glass-strong rounded-2xl overflow-hidden fade-up delay-100">
-          <div class="aspect-video bg-black relative">
-            <iframe 
-              class="w-full h-full" 
-              src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
-              title="Video sample 2" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-              allowfullscreen
-              loading="lazy"
-            ></iframe>
-          </div>
-          <div class="p-5">
-            <h3 class="text-base font-semibold text-white mb-1">Content Production Sample</h3>
-            <p class="text-sm text-slate-400">Placeholder — update with your real sample.</p>
-          </div>
-        </div>
-
-        <div class="video-card glass-strong rounded-2xl overflow-hidden fade-up delay-200">
-          <div class="aspect-video bg-black relative">
-            <iframe 
-              class="w-full h-full" 
-              src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
-              title="Video sample 3" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-              allowfullscreen
-              loading="lazy"
-            ></iframe>
-          </div>
-          <div class="p-5">
-            <h3 class="text-base font-semibold text-white mb-1">Editing / CapCut Showcase</h3>
-            <p class="text-sm text-slate-400">Placeholder — swap the YouTube ID and description.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Education & Certifications -->
-  <section id="education" class="section-padding relative z-10">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-12 md:mb-16 fade-up">
-        <p class="text-indigo-400 font-medium tracking-widest uppercase text-sm mb-2">Background</p>
-        <h2 class="text-3xl md:text-4xl font-bold text-white">Education & Certifications</h2>
-        <div class="w-20 h-1 bg-gradient-to-r from-indigo-500 to-purple-500 mx-auto mt-4 rounded-full"></div>
-      </div>
-
-      <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-        <div class="glass-strong rounded-2xl p-6 md:p-8 fade-up">
-          <div class="flex items-start gap-4">
-            <div class="w-12 h-12 rounded-xl bg-indigo-500/20 flex items-center justify-center flex-shrink-0">
-              <svg class="w-6 h-6 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg>
-            </div>
-            <div>
-              <h3 class="text-lg font-semibold text-white">Bachelor of Science in Economics</h3>
-              <p class="text-slate-400 text-sm mt-1">Academic foundation in economic analysis, research methods and critical thinking.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="glass-strong rounded-2xl p-6 md:p-8 fade-up delay-100">
-          <div class="flex items-start gap-4">
-            <div class="w-12 h-12 rounded-xl bg-purple-500/20 flex items-center justify-center flex-shrink-0">
-              <svg class="w-6 h-6 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg>
-            </div>
-            <div>
-              <h3 class="text-lg font-semibold text-white">Google Fundamentals of Digital Marketing</h3>
-              <p class="text-slate-400 text-sm mt-1">Official Google certification covering core digital marketing concepts.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="glass-strong rounded-2xl p-6 md:p-8 fade-up delay-200 md:col-span-2 md:max-w-md md:mx-auto">
-          <div class="flex items-start gap-4">
-            <div class="w-12 h-12 rounded-xl bg-blue-500/20 flex items-center justify-center flex-shrink-0">
-              <svg class="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg>
-            </div>
-            <div>
-              <h3 class="text-lg font-semibold text-white">Web Design Basics</h3>
-              <p class="text-slate-400 text-sm mt-1">Foundational knowledge of web design principles.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Section (ONLY Email + X) -->
+  <!-- ========== Contact Section (Email only) ========== -->
   <section id="contact" class="section-padding relative z-10 bg-dark-800/40">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12 md:mb-16 fade-up">
         <p class="text-indigo-400 font-medium tracking-widest uppercase text-sm mb-2">Get in Touch</p>
         <h2 class="text-3xl md:text-4xl font-bold text-white">Contact</h2>
         <div class="w-20 h-1 bg-gradient-to-r from-indigo-500 to-purple-500 mx-auto mt-4 rounded-full"></div>
-        <p class="text-slate-400 mt-4 max-w-md mx-auto">Open to remote roles in data annotation, content review, writing, and digital media projects.</p>
+        <p class="text-slate-400 mt-4 max-w-md mx-auto">Open to remote roles in data annotation, content review, writing and video production.</p>
       </div>
 
-      <div class="grid sm:grid-cols-2 gap-5 max-w-2xl mx-auto fade-up delay-100">
-        <!-- Email -->
-        <a href="mailto:godwingote@gmail.com" class="contact-icon glass-strong rounded-2xl p-6 flex flex-col items-center text-center group">
-          <div class="w-14 h-14 rounded-2xl bg-indigo-500/15 flex items-center justify-center mb-4 group-hover:bg-indigo-500/25 transition">
-            <svg class="w-7 h-7 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+      <div class="max-w-md mx-auto fade-up delay-100">
+        <a href="mailto:godwingote@gmail.com" class="contact-icon glass-strong rounded-2xl p-8 flex flex-col items-center text-center group">
+          <div class="w-16 h-16 rounded-2xl bg-indigo-500/15 flex items-center justify-center mb-5 group-hover:bg-indigo-500/25 transition">
+            <svg class="w-8 h-8 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
           </div>
-          <h3 class="font-semibold text-white mb-1">Email</h3>
-          <p class="text-sm text-slate-400 break-all">godwingote@gmail.com</p>
-        </a>
-
-        <!-- X / Twitter -->
-        <a href="https://x.com/freeze66760" target="_blank" rel="noopener noreferrer" class="contact-icon glass-strong rounded-2xl p-6 flex flex-col items-center text-center group">
-          <div class="w-14 h-14 rounded-2xl bg-slate-500/15 flex items-center justify-center mb-4 group-hover:bg-slate-500/25 transition">
-            <svg class="w-6 h-6 text-slate-300" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-          </div>
-          <h3 class="font-semibold text-white mb-1">X (Twitter)</h3>
-          <p class="text-sm text-slate-400">@freeze66760</p>
+          <h3 class="font-semibold text-white text-lg mb-2">Email</h3>
+          <p class="text-slate-400">godwingote@gmail.com</p>
         </a>
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
+  <!-- ========== Footer ========== -->
   <footer class="relative z-10 border-t border-white/5 py-10">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <p class="text-slate-500 text-sm">
         Designed & Built by <span class="text-slate-300 font-medium">Nkeeh Baridosian Godwin</span>
       </p>
       <p class="text-slate-600 text-xs mt-2">
-        © <span id="year">2026</span> · Web3 aesthetic portfolio · All rights reserved
+        © <span id="year">2026</span> · All rights reserved
       </p>
     </div>
   </footer>
 
   <script src="script.js"></script>
 </body>
-                                                                                         </html>
+</html>
