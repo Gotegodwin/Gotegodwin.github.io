@@ -22,7 +22,7 @@
   <meta name="twitter:title" content="Nkeeh Baridosian Godwin | Portfolio" />
   <meta name="twitter:description" content="Writer • Data Annotator & Reviewer • Content & Digital Media Professional" />
 
-  <!-- Favicon (simple emoji fallback) -->
+  <!-- Favicon -->
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>NG</text></svg>" />
 
   <!-- Tailwind CSS CDN -->
@@ -56,7 +56,7 @@
     }
   </script>
 
-  <!-- Google Fonts - Inter -->
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -67,7 +67,7 @@
 
 <body class="font-sans antialiased bg-dark-900 text-slate-200 relative">
 
-  <!-- ========== Floating Background Blobs ========== -->
+  <!-- Floating Background Blobs -->
   <div class="fixed inset-0 overflow-hidden pointer-events-none z-0" aria-hidden="true">
     <div class="blob blob-1"></div>
     <div class="blob blob-2"></div>
@@ -75,16 +75,14 @@
     <div class="blob blob-4"></div>
   </div>
 
-  <!-- ========== Navigation ========== -->
+  <!-- Navigation -->
   <header id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-transparent transition-all duration-300">
     <nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
       <div class="flex items-center justify-between h-16 md:h-20">
-        <!-- Logo / Name -->
         <a href="#home" class="text-lg md:text-xl font-bold tracking-tight gradient-text hover:opacity-90 transition">
           N.B. Godwin
         </a>
 
-        <!-- Desktop Links -->
         <div class="hidden md:flex items-center gap-1 lg:gap-2">
           <a href="#home" class="nav-link px-3 py-2 text-sm font-medium text-slate-300">Home</a>
           <a href="#about" class="nav-link px-3 py-2 text-sm font-medium text-slate-300">About</a>
@@ -96,18 +94,16 @@
           <a href="#contact" class="nav-link px-3 py-2 text-sm font-medium text-slate-300">Contact</a>
         </div>
 
-        <!-- Mobile Menu Button -->
         <button id="menu-btn" type="button" class="md:hidden p-2 rounded-lg text-slate-300 hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-indigo-500" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
-          <svg id="menu-icon-open" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <svg id="menu-icon-open" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
           </svg>
-          <svg id="menu-icon-close" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <svg id="menu-icon-close" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
           </svg>
         </button>
       </div>
 
-      <!-- Mobile Menu -->
       <div id="mobile-menu" class="mobile-menu md:hidden glass-strong rounded-b-2xl mx-0 px-4 pb-4">
         <div class="flex flex-col space-y-1 pt-2">
           <a href="#home" class="nav-link block px-4 py-3 text-sm font-medium text-slate-300 rounded-lg hover:bg-white/5">Home</a>
@@ -123,7 +119,7 @@
     </nav>
   </header>
 
-  <!-- ========== Hero Section ========== -->
+  <!-- Hero Section -->
   <section id="home" class="relative min-h-screen flex items-center justify-center pt-20 pb-16 section-padding overflow-hidden">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
       <div class="fade-up">
@@ -142,7 +138,6 @@
           Writer and content professional with over six years of experience creating digital content, evaluating AI datasets, reviewing content against detailed guidelines, and helping improve content quality through careful analysis.
         </p>
 
-        <!-- CTA Buttons -->
         <div class="flex flex-wrap items-center justify-center gap-4">
           <a href="assets/resume.pdf" download class="btn-glow inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold text-sm shadow-lg hover:from-indigo-500 hover:to-purple-500 transition">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
@@ -159,14 +154,13 @@
         </div>
       </div>
 
-      <!-- Scroll indicator -->
-      <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce hidden sm:block" aria-hidden="true">
+      <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce hidden sm:block">
         <svg class="w-6 h-6 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg>
       </div>
     </div>
   </section>
 
-  <!-- ========== About Section ========== -->
+  <!-- About Section -->
   <section id="about" class="section-padding relative z-10">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12 md:mb-16 fade-up">
@@ -176,12 +170,10 @@
       </div>
 
       <div class="grid md:grid-cols-5 gap-10 md:gap-14 items-center">
-        <!-- Photo -->
         <div class="md:col-span-2 flex justify-center fade-up delay-100">
           <div class="relative">
             <div class="absolute -inset-1 bg-gradient-to-br from-indigo-500 via-purple-500 to-blue-500 rounded-2xl blur opacity-40"></div>
             <div class="relative w-56 h-56 sm:w-64 sm:h-64 md:w-72 md:h-72 rounded-2xl overflow-hidden glass-strong">
-              <!-- Replace src with assets/images/profile.jpg when you have your photo -->
               <img 
                 src="assets/images/profile.jpg" 
                 alt="Nkeeh Baridosian Godwin professional portrait" 
@@ -195,7 +187,6 @@
           </div>
         </div>
 
-        <!-- Text -->
         <div class="md:col-span-3 fade-up delay-200">
           <h3 class="text-xl md:text-2xl font-semibold text-white mb-4">
             Crafting clarity in content and data
@@ -207,7 +198,6 @@
             Across roles in content writing, data annotation, video reviewing, social media management, and digital media, I have delivered reliable results while working both independently and collaboratively in remote environments. I bring attention to detail, clear communication, and a strong understanding of how high-quality data and content support better products and audiences.
           </p>
 
-          <!-- Key areas -->
           <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
             <div class="glass rounded-xl px-4 py-3 text-center">
               <p class="text-indigo-300 font-semibold text-sm">Content Writing</p>
@@ -233,7 +223,7 @@
     </div>
   </section>
 
-  <!-- ========== Experience Section ========== -->
+  <!-- Experience Section -->
   <section id="experience" class="section-padding relative z-10 bg-dark-800/40">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12 md:mb-16 fade-up">
@@ -243,8 +233,7 @@
       </div>
 
       <div class="relative">
-        <!-- Vertical line -->
-        <div class="timeline-line hidden md:block" aria-hidden="true"></div>
+        <div class="timeline-line hidden md:block"></div>
 
         <div class="space-y-10 md:space-y-16">
           <!-- Job 1 -->
@@ -339,7 +328,7 @@
     </div>
   </section>
 
-  <!-- ========== Skills Section ========== -->
+  <!-- Skills Section -->
   <section id="skills" class="section-padding relative z-10">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12 md:mb-16 fade-up">
@@ -349,7 +338,6 @@
       </div>
 
       <div class="flex flex-wrap justify-center gap-3 md:gap-4 max-w-4xl mx-auto fade-up delay-100">
-        <!-- Core skills -->
         <span class="skill-badge px-4 py-2.5 rounded-full text-sm font-medium">Data Annotation</span>
         <span class="skill-badge px-4 py-2.5 rounded-full text-sm font-medium">Content Review</span>
         <span class="skill-badge px-4 py-2.5 rounded-full text-sm font-medium">Video Review</span>
@@ -369,7 +357,7 @@
     </div>
   </section>
 
-  <!-- ========== Portfolio Section ========== -->
+  <!-- Portfolio Section -->
   <section id="portfolio" class="section-padding relative z-10 bg-dark-800/40">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12 md:mb-16 fade-up">
@@ -379,7 +367,6 @@
       </div>
 
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-        <!-- Card 1: Articles -->
         <article class="portfolio-card glass-strong rounded-2xl overflow-hidden fade-up">
           <div class="aspect-video bg-gradient-to-br from-indigo-900/60 to-purple-900/40 relative overflow-hidden">
             <img src="https://placehold.co/600x340/1e1b4b/a5b4fc?text=Articles" alt="Articles portfolio preview" class="w-full h-full object-cover opacity-90" loading="lazy" />
@@ -395,7 +382,6 @@
           </div>
         </article>
 
-        <!-- Card 2: Web3 Research -->
         <article class="portfolio-card glass-strong rounded-2xl overflow-hidden fade-up delay-100">
           <div class="aspect-video bg-gradient-to-br from-violet-900/60 to-blue-900/40 relative overflow-hidden">
             <img src="https://placehold.co/600x340/2e1065/c4b5fd?text=Web3+Research" alt="Web3 research portfolio preview" class="w-full h-full object-cover opacity-90" loading="lazy" />
@@ -411,7 +397,6 @@
           </div>
         </article>
 
-        <!-- Card 3: Social Media -->
         <article class="portfolio-card glass-strong rounded-2xl overflow-hidden fade-up delay-200">
           <div class="aspect-video bg-gradient-to-br from-blue-900/60 to-indigo-900/40 relative overflow-hidden">
             <img src="https://placehold.co/600x340/1e3a8a/93c5fd?text=Social+Campaigns" alt="Social media campaigns portfolio preview" class="w-full h-full object-cover opacity-90" loading="lazy" />
@@ -427,7 +412,6 @@
           </div>
         </article>
 
-        <!-- Card 4: Graphics -->
         <article class="portfolio-card glass-strong rounded-2xl overflow-hidden fade-up">
           <div class="aspect-video bg-gradient-to-br from-fuchsia-900/50 to-purple-900/40 relative overflow-hidden">
             <img src="https://placehold.co/600x340/4a044e/f0abfc?text=Graphics" alt="Graphics portfolio preview" class="w-full h-full object-cover opacity-90" loading="lazy" />
@@ -443,7 +427,6 @@
           </div>
         </article>
 
-        <!-- Card 5: NFT -->
         <article class="portfolio-card glass-strong rounded-2xl overflow-hidden fade-up delay-100">
           <div class="aspect-video bg-gradient-to-br from-cyan-900/50 to-indigo-900/40 relative overflow-hidden">
             <img src="https://placehold.co/600x340/164e63/67e8f9?text=NFT+Artwork" alt="NFT artwork portfolio preview" class="w-full h-full object-cover opacity-90" loading="lazy" />
@@ -459,7 +442,6 @@
           </div>
         </article>
 
-        <!-- Card 6: Placeholder for more -->
         <article class="portfolio-card glass-strong rounded-2xl overflow-hidden fade-up delay-200">
           <div class="aspect-video bg-gradient-to-br from-slate-800 to-dark-700 relative overflow-hidden flex items-center justify-center">
             <div class="text-center p-6">
@@ -477,7 +459,7 @@
     </div>
   </section>
 
-  <!-- ========== Resume Section ========== -->
+  <!-- Resume Section -->
   <section id="resume" class="section-padding relative z-10">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12 md:mb-16 fade-up">
@@ -495,7 +477,6 @@
           </a>
         </div>
 
-        <!-- PDF Embed -->
         <div class="glass-strong rounded-2xl overflow-hidden fade-up delay-200">
           <div class="bg-dark-700 px-4 py-3 flex items-center justify-between border-b border-white/5">
             <span class="text-sm text-slate-400">resume.pdf</span>
@@ -513,18 +494,17 @@
     </div>
   </section>
 
-  <!-- ========== Video Samples Section ========== -->
+  <!-- Video Samples -->
   <section id="videos" class="section-padding relative z-10 bg-dark-800/40">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12 md:mb-16 fade-up">
         <p class="text-indigo-400 font-medium tracking-widest uppercase text-sm mb-2">Media</p>
         <h2 class="text-3xl md:text-4xl font-bold text-white">Video Samples</h2>
         <div class="w-20 h-1 bg-gradient-to-r from-indigo-500 to-purple-500 mx-auto mt-4 rounded-full"></div>
-        <p class="text-slate-500 text-sm mt-4 max-w-lg mx-auto">Replace the embed URLs below with your own YouTube (or other) video links.</p>
+        <p class="text-slate-500 text-sm mt-4 max-w-lg mx-auto">Replace the embed URLs below with your own YouTube video links.</p>
       </div>
 
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-        <!-- Video 1 -->
         <div class="video-card glass-strong rounded-2xl overflow-hidden fade-up">
           <div class="aspect-video bg-black relative">
             <iframe 
@@ -538,11 +518,10 @@
           </div>
           <div class="p-5">
             <h3 class="text-base font-semibold text-white mb-1">Sample Review / Annotation Demo</h3>
-            <p class="text-sm text-slate-400">Placeholder — replace with your video title and a short description of the work shown.</p>
+            <p class="text-sm text-slate-400">Placeholder — replace with your video title and description.</p>
           </div>
         </div>
 
-        <!-- Video 2 -->
         <div class="video-card glass-strong rounded-2xl overflow-hidden fade-up delay-100">
           <div class="aspect-video bg-black relative">
             <iframe 
@@ -556,11 +535,10 @@
           </div>
           <div class="p-5">
             <h3 class="text-base font-semibold text-white mb-1">Content Production Sample</h3>
-            <p class="text-sm text-slate-400">Placeholder — update the embed src and this description with your real sample.</p>
+            <p class="text-sm text-slate-400">Placeholder — update with your real sample.</p>
           </div>
         </div>
 
-        <!-- Video 3 -->
         <div class="video-card glass-strong rounded-2xl overflow-hidden fade-up delay-200">
           <div class="aspect-video bg-black relative">
             <iframe 
@@ -574,14 +552,14 @@
           </div>
           <div class="p-5">
             <h3 class="text-base font-semibold text-white mb-1">Editing / CapCut Showcase</h3>
-            <p class="text-sm text-slate-400">Placeholder — swap the YouTube ID and rewrite the title and short description.</p>
+            <p class="text-sm text-slate-400">Placeholder — swap the YouTube ID and description.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ========== Education & Certifications ========== -->
+  <!-- Education & Certifications -->
   <section id="education" class="section-padding relative z-10">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12 md:mb-16 fade-up">
@@ -591,7 +569,6 @@
       </div>
 
       <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-        <!-- Education -->
         <div class="glass-strong rounded-2xl p-6 md:p-8 fade-up">
           <div class="flex items-start gap-4">
             <div class="w-12 h-12 rounded-xl bg-indigo-500/20 flex items-center justify-center flex-shrink-0">
@@ -599,12 +576,11 @@
             </div>
             <div>
               <h3 class="text-lg font-semibold text-white">Bachelor of Science in Economics</h3>
-              <p class="text-slate-400 text-sm mt-1">Academic foundation in economic analysis, research methods and critical thinking that supports structured evaluation of content and data.</p>
+              <p class="text-slate-400 text-sm mt-1">Academic foundation in economic analysis, research methods and critical thinking.</p>
             </div>
           </div>
         </div>
 
-        <!-- Cert 1 -->
         <div class="glass-strong rounded-2xl p-6 md:p-8 fade-up delay-100">
           <div class="flex items-start gap-4">
             <div class="w-12 h-12 rounded-xl bg-purple-500/20 flex items-center justify-center flex-shrink-0">
@@ -612,12 +588,11 @@
             </div>
             <div>
               <h3 class="text-lg font-semibold text-white">Google Fundamentals of Digital Marketing</h3>
-              <p class="text-slate-400 text-sm mt-1">Official Google certification covering core digital marketing concepts, channels and measurement.</p>
+              <p class="text-slate-400 text-sm mt-1">Official Google certification covering core digital marketing concepts.</p>
             </div>
           </div>
         </div>
 
-        <!-- Cert 2 -->
         <div class="glass-strong rounded-2xl p-6 md:p-8 fade-up delay-200 md:col-span-2 md:max-w-md md:mx-auto">
           <div class="flex items-start gap-4">
             <div class="w-12 h-12 rounded-xl bg-blue-500/20 flex items-center justify-center flex-shrink-0">
@@ -625,7 +600,7 @@
             </div>
             <div>
               <h3 class="text-lg font-semibold text-white">Web Design Basics</h3>
-              <p class="text-slate-400 text-sm mt-1">Foundational knowledge of web design principles supporting clearer digital content presentation and collaboration with design teams.</p>
+              <p class="text-slate-400 text-sm mt-1">Foundational knowledge of web design principles.</p>
             </div>
           </div>
         </div>
@@ -633,7 +608,7 @@
     </div>
   </section>
 
-  <!-- ========== Contact Section ========== -->
+  <!-- Contact Section (ONLY Email + X) -->
   <section id="contact" class="section-padding relative z-10 bg-dark-800/40">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12 md:mb-16 fade-up">
@@ -643,14 +618,14 @@
         <p class="text-slate-400 mt-4 max-w-md mx-auto">Open to remote roles in data annotation, content review, writing, and digital media projects.</p>
       </div>
 
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 max-w-4xl mx-auto fade-up delay-100">
+      <div class="grid sm:grid-cols-2 gap-5 max-w-2xl mx-auto fade-up delay-100">
         <!-- Email -->
-        <a href="godwingote@gmail.com" class="contact-icon glass-strong rounded-2xl p-6 flex flex-col items-center text-center group">
+        <a href="mailto:godwingote@gmail.com" class="contact-icon glass-strong rounded-2xl p-6 flex flex-col items-center text-center group">
           <div class="w-14 h-14 rounded-2xl bg-indigo-500/15 flex items-center justify-center mb-4 group-hover:bg-indigo-500/25 transition">
             <svg class="w-7 h-7 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
           </div>
           <h3 class="font-semibold text-white mb-1">Email</h3>
-          <p class="text-sm text-slate-400 break-all">godwingote@example.com</p>
+          <p class="text-sm text-slate-400 break-all">godwingote@gmail.com</p>
         </a>
 
         <!-- X / Twitter -->
@@ -659,40 +634,13 @@
             <svg class="w-6 h-6 text-slate-300" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
           </div>
           <h3 class="font-semibold text-white mb-1">X (Twitter)</h3>
-          <p class="text-sm text-slate-400">@yourhandle</p>
-        </a>
-
-        <!-- LinkedIn -->
-        <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" class="contact-icon glass-strong rounded-2xl p-6 flex flex-col items-center text-center group">
-          <div class="w-14 h-14 rounded-2xl bg-blue-500/15 flex items-center justify-center mb-4 group-hover:bg-blue-500/25 transition">
-            <svg class="w-7 h-7 text-blue-400" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-          </div>
-          <h3 class="font-semibold text-white mb-1">LinkedIn</h3>
-          <p class="text-sm text-slate-400">linkedin.com/in/yourprofile</p>
-        </a>
-
-        <!-- Telegram -->
-        <a href="https://t.me/yourusername" target="_blank" rel="noopener noreferrer" class="contact-icon glass-strong rounded-2xl p-6 flex flex-col items-center text-center group">
-          <div class="w-14 h-14 rounded-2xl bg-sky-500/15 flex items-center justify-center mb-4 group-hover:bg-sky-500/25 transition">
-            <svg class="w-7 h-7 text-sky-400" fill="currentColor" viewBox="0 0 24 24"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
-          </div>
-          <h3 class="font-semibold text-white mb-1">Telegram</h3>
-          <p class="text-sm text-slate-400">@yourusername</p>
-        </a>
-
-        <!-- GitHub -->
-        <a href="https://github.com/Gotegodwin" target="_blank" rel="noopener noreferrer" class="contact-icon glass-strong rounded-2xl p-6 flex flex-col items-center text-center group sm:col-span-2 lg:col-span-1">
-          <div class="w-14 h-14 rounded-2xl bg-slate-500/15 flex items-center justify-center mb-4 group-hover:bg-slate-500/25 transition">
-            <svg class="w-7 h-7 text-slate-300" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"/></svg>
-          </div>
-          <h3 class="font-semibold text-white mb-1">GitHub</h3>
-          <p class="text-sm text-slate-400">github.com/yourusername</p>
+          <p class="text-sm text-slate-400">@freeze66760</p>
         </a>
       </div>
     </div>
   </section>
 
-  <!-- ========== Footer ========== -->
+  <!-- Footer -->
   <footer class="relative z-10 border-t border-white/5 py-10">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <p class="text-slate-500 text-sm">
@@ -704,7 +652,6 @@
     </div>
   </footer>
 
-  <!-- Scripts -->
   <script src="script.js"></script>
 </body>
-</html>
+                                                                                         </html>
